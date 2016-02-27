@@ -1,22 +1,21 @@
 package Practica1;
 
 public class ParCF {
-	private int clave;
+	private String clave;
 	private int frecuencia;
-	public ParCF(int c,int f){
-		setClave(c);
-		setFrecuencia(f);
+	public ParCF(String c,int f){
+		clave = c;
+		frecuencia = f;
 	}
-	public int getClave() {
+	public ParCF(int f){
+		clave = null;
+		frecuencia = f;
+	}
+	public String getClave() {
 		return clave;
-	}
-	public void setClave(int clave) {
-		this.clave = clave;
+
 	}
 	public int getFrecuencia() {
 		return frecuencia;
-	}
-	public void setFrecuencia(int frecuencia) {
-		this.frecuencia = frecuencia;
 	}
 }

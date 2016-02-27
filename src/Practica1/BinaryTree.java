@@ -17,4 +17,11 @@ public class BinaryTree {
 	public ParCF getValue(){
 		return value;
 	}
+	public BinaryTree getLeft(){
+		return left;
+	}
+
+	public BinaryTree getRight() {
+		return right;
+	}
 }
